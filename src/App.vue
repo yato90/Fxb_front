@@ -3,7 +3,9 @@ import Layout from './layouts/AppLayout.vue'
 </script>
 
 <template>
-  <Layout> Что то </Layout>
+  <Layout>
+    <router-view />
+  </Layout>
 </template>
 
 <style scoped></style>
